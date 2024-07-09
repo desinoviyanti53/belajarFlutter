@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/container_widget.dart';
+import 'package:myapp/latihan.dart';
 import 'package:myapp/news_container.dart';
+import 'package:myapp/row_column/latihan_rowcolumn.dart';
+import 'package:myapp/row_column/row_widget.dart';
 
 void main(){
   runApp(MyApp());
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.pinkAccent,
         ),
-      body: NewsContainer(),
+      body: Latihan(),
       ),
     );
   }
