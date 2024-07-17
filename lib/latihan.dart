@@ -36,7 +36,7 @@ class BiodataPage extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: 'Fullname',
                 filled: true,
-                fillColor: const Color.fromARGB(255, 219, 171, 171),
+                fillColor: Colors.grey[300],
               ),
             ),
             SizedBox(height: 16),

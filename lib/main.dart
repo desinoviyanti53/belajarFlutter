@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Belajar Flutter'),
           centerTitle: true,
-          backgroundColor: Colors.pinkAccent,
+          backgroundColor: Color.fromARGB(255, 73, 73, 73),
         ),
       body: Latihan(),
       ),
