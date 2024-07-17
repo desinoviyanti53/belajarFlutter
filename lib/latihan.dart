@@ -24,7 +24,7 @@ class BiodataPage extends StatelessWidget {
                 height: 200.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/images/animee.jpg'),
+                    image: AssetImage('assets/images/jaehyun.jpg'),
                     fit: BoxFit.cover,
                   ),
                   borderRadius: BorderRadius.circular(8.0),
@@ -65,7 +65,9 @@ class BiodataPage extends StatelessWidget {
                   color: Colors.grey[300],
                   width: 50,
                   height: 50,
-                  child: Row(children: [
+                  child: Row (
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
                       Icon(Icons.php),
                       Text(''),
                   ],
@@ -75,7 +77,9 @@ class BiodataPage extends StatelessWidget {
                   color: Colors.grey[300],
                   width: 50,
                   height: 50,
-                  child: Row(children: [
+                  child: Row ( 
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
                       Icon(Icons.javascript),
                       Text(''),
                   ],
@@ -85,7 +89,9 @@ class BiodataPage extends StatelessWidget {
                   color: Colors.grey[300],
                   width: 50,
                   height: 50,
-                  child: Row(children: [
+                  child: Row (
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
                       Icon(Icons.html),
                       Text(''),
                   ],
